@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #d1d6d6;
+    padding: 16px;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 16px;
+}
+
+.vermelho {
+    background-image: linear-gradient(to right, rgb(252, 166, 166), rgb(241, 128, 128), rgb(236, 87, 87), rgb(196, 20, 8) );
+    border-radius: 10px;
+    min-width: 50px;
+    min-height: 50px;
+    grid-column: span 2;
+}
+
+.verde {
+    background-image: linear-gradient(to right, rgb(201, 238, 142), rgb(141, 245, 110), rgb(80, 167, 22), rgb(122, 236, 16) );
+    border-radius: 10px;
+    min-width: 50px;
+    min-height: 50px;
+    grid-row: 1 / span 2;
+    grid-column: 4;
+}
+
+.laranja {
+    background-color: #cc5d2a;
+    border-radius: 10px;
+    min-width: 50px;
+    min-height: 50px;
+    grid-row: 3 / span 1;
+    grid-column: 4;
+}
+
+.azul {
+    background-color: #2aa6cc;
+    border-radius: 10px;
+    min-width: 50px;
+    min-height: 50px;
+    grid-column: span 2;
+    grid-row: 1 / span 3;
+}
+
+.azul-escuro {
+    background-color: #352acc;
+    border-radius: 10px;
+    min-width: 50px;
+    min-height: 50px;
+    grid-row: 3;
+    grid-column: 1;
+}
+
+.rosa {
+    background-image: linear-gradient(to right, rgb(245, 180, 234), rgb(220, 60, 235), rgb(245, 61, 252), rgb(236, 16, 119) );
+    border-radius: 10px;
+    min-width: 50px;
+    min-height: 50px;
+    grid-column: 1;
+    grid-row: 1 / span 2;
+}
+
+.roxo {
+    background-color: #9c34d8;
+    border-radius: 10px;
+    min-width: 50px;
+    min-height: 50px;
+    grid-column: span 1;
+}
+
+.amarelo {
+    background-color: #f5d41b;
+    border-radius: 10px;
+    min-width: 50px;
+    min-height: 50px;
+    grid-row: 4 / span 2;
+    grid-column: 4 / span 1;
+}
+
+.rosa-claro {
+    background-image: linear-gradient(to right, rgb(240, 206, 243), rgb(245, 137, 230), rgb(240, 68, 217) );
+    border-radius: 10px;
+    min-width: 50px;
+    min-height: 50px;
+    grid-row: span 1;
+    grid-column: 2 / span 2;
+}
+
+.verde-escuro {
+    background-color: #046b23;
+    border-radius: 10px;
+    min-width: 50px;
+    min-height: 50px;
+    grid-row: 5;
+    grid-column: span 1 ;
+}
